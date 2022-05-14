@@ -1,6 +1,8 @@
 <template>
 <div>
-  <table>
+  <h1>Notas Fiscais</h1>
+  <p>Visualize as notas fiscais que você tem.</p>
+  <table border="1px" cellpadding="5px" cellspacing="0">
     <thead>
       <tr>
         <th>NOTA FISCAL</th>
@@ -22,12 +24,6 @@
       </tr>
     </tbody>
   </table>
-
-  <h1>Olá!</h1>
-  <h1>Meu nome é {{ nome }}</h1>
-  <ul v-for="item in array_de_nomes" v-bind:key="item">
-    <li>{{ item }}</li>
-  </ul>
 </div>
 </template>
 
@@ -52,3 +48,35 @@ export default {
   name: 'TableValue',
 };
 </script>
+
+<style scoped>
+table {
+  border-collapse: collapse;
+  width: 50em;
+  border: 1px solid rgb(185, 185, 185);
+}
+
+thead {
+  background: #ccc url(https://www.devfuria.com.br/html-css/tabelas/bar.gif) repeat-x left center;
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+}
+tr:hover {
+  background-color:#5f92da;
+  color: black;
+}
+thead tr:hover {
+  background-color: transparent;
+  color: inherit;
+}
+tr:nth-child(even) {
+    background-color: #edf5ff;
+}
+th {
+  font-weight: normal;
+  text-align: left;
+}
+th, td {
+  padding: 0.1em 1em;
+}
+</style>
