@@ -78,4 +78,5 @@ th {
 th, td {
   padding: 0.1em 1em;
 }
+
 </style>
