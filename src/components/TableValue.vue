@@ -41,7 +41,6 @@ export default {
 
   async mounted() {
     const { data } = await fetchData.list();
-    console.log(data);
     this.info = data;
   },
 
