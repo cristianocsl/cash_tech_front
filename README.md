@@ -20,8 +20,8 @@ npm run build
 npm run lint
 ```
 
-### Aprimoramento deste projeto com Quasar UI no link a seguir:
-![https://github.com/cristianocsl/cash_tech_front_2](https://github.com/cristianocsl/cash_tech_front_2)
+### Aprimoramento deste projeto com o framework Quasar no link a seguir:
+(https://github.com/cristianocsl/cash_tech_front_2)
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
